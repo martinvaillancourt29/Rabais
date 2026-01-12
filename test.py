@@ -1,6 +1,5 @@
-def main():
-    print("Script de surveillance des rabais — démarrage OK")
+from datetime import datetime
 
-
-if __name__ == "__main__":
-    main()
+print("===== SCRIPT RABAIS =====")
+print("Date et heure :", datetime.utcnow())
+print("Le workflow GitHub Actions fonctionne correctement.")
